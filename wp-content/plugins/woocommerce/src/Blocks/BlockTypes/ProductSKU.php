@@ -71,7 +71,7 @@ class ProductSKU extends AbstractBlock {
 
 		return sprintf(
 			'<div class="wc-block-components-product-sku wc-block-grid__product-sku wp-block-woocommerce-product-sku product_meta %1$s" style="%2$s">
-				SKU:
+				Article number:
 				<strong class="sku">%3$s</strong>
 			</div>',
 			esc_attr( $styles_and_classes['classes'] ),
