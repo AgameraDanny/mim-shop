@@ -16,65 +16,78 @@ Added for customization by Danny
 
 /* Custom styles for the product page layout */
 .product-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Left, center, right columns */
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Left, center, right columns */
+  gap: 20px;
+  padding: 20px;
 }
 
 .product-left,
 .product-center,
 .product-right {
-    padding: 10px;
+  padding: 10px;
 }
 
 .product-left {
-    max-width: 300px; /* Optional: Set width of the image section */
+  max-width: 300px; /* Optional: Set width of the image section */
 }
 
 .product-center {
-    background-color: #f9f9f9; /* Light background for better contrast */
+  background-color: #f9f9f9; /* Light background for better contrast */
 }
 
 .product-title-excerpt {
-    text-align: left; /* Align title and excerpt to the left */
-    padding: 20px 0;  /* Padding for spacing above and below */
-    background-color: #fff; /* Optional: background color */
+  text-align: left; /* Align title and excerpt to the left */
+  padding: 20px 0; /* Padding for spacing above and below */
+  background-color: #fff; /* Optional: background color */
 }
 
 .product-title {
-    font-size: 2.2em; /* Adjust the title size */
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 2.2em; /* Adjust the title size */
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .product-excerpt {
-    font-size: 1.1em;
-    margin-bottom: 20px;
+  font-size: 1.1em;
+  margin-bottom: 20px;
 }
 
 .product-right {
-    max-width: 300px; /* Optional: Set width for related products */
+  max-width: 300px; /* Optional: Set width for related products */
 }
 
-
 .debug {
-	font-size: smaller;
-	color: red;
+  font-size: smaller;
+  color: red;
 }
 
 .info-box {
-	border: 1px solid orange;
-	padding: 10px;
+  border: 1px solid orange;
+  padding: 10px;
 }
 
-.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
-    float: right;
-    width: 100%;
-    clear: none;
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.summary {
+  float: right;
+  width: 100%;
+  clear: none;
 }
 
-.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
-    float: left;
-    width: 100%;
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images {
+  float: left;
+  width: 100%;
 }
+
+.col-2 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+}
+
+
