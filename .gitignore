@@ -1,4 +1,42 @@
-# .gitignore
-
-# Ignore wp-config.php
+# Ignore wp-config.php (config file for WordPress installation)
 wp-config.php
+
+# Ignore WordPress Core Folders
+wp-admin/
+wp-includes/
+
+# Ignore uploads (images, PDFs, etc.)
+wp-content/uploads/
+
+# Ignore local development environment files
+.env
+.vscode/
+.idea/
+
+# Ignore Docker related files
+docker-compose.yml
+Dockerfile
+
+# Ignore cache files
+wp-content/cache/
+wp-content/w3tc-config/
+
+# Ignore logs
+wp-content/debug.log
+
+# Ignore Node and npm files
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Ignore build folders
+/dist/
+/build/
+
+# Ignore backup files
+*.bak
+*.old
+
+# Ignore any IDE/editor specific files
+*.swp
+*.swo
